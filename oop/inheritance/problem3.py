@@ -5,7 +5,6 @@
 
 import math
 
-# Base class
 class Shape:
     def area(self):
         pass  # abstract placeholder (to be overridden)
