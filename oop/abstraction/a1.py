@@ -41,7 +41,16 @@ class Triangle(Shape):
         result = 1/2 * self.base * self.height
         return result
     
-def print_area(shape : Shape):
+def print_area(shape: Shape):
 
     result = shape.area()
     print(result)
+
+circle = Circle(radius=5)
+print_area(circle)
+
+rectangle = Rectangle(length=4, breadth=6)
+print_area(rectangle)
+
+triangle = Triangle(base=8, height=3)
+print_area(triangle)
